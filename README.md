@@ -1,12 +1,10 @@
-Qiao's vim files
+Zhujin's vim files
 ================
 
 ## Bundled Plugins ##
 
-* [ag.vim](https://github.com/epmatsw/ag.vim) - for the silver searcher
 * [c.vim](https://github.com/vim-scripts/c.vim) - C/C++ IDE -- Write and run programs. Insert statements, idioms, comments etc
 * [closetag](https://github.com/docunext/closetag.vim) - Functions and mappings to close open HTML/XML tags
-* [ctrlp](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru and tag finder
 * [delimitMate](https://github.com/Raimondi/delimitMate) - provides insert mode auto-completion for quotes, parens, brackets, etc
 * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) -  provides a much simpler way to use some motions in vim
 * [endwise](https://github.com/tpope/vim-endwise) - wisely add "end" in ruby, endfunction/endif/more in vim script, etc
@@ -21,7 +19,6 @@ Qiao's vim files
 * [nerd tree](https://github.com/scrooloose/nerdtree) - tree explorer plugin for navigating the filesystem
 * [powerline](https://github.com/Lokaltog/vim-powerline) - create better-looking, more functional vim statuslines
 * [rainbow parenthesis](https://github.com/kien/rainbow_parentheses.vim) - highlights matching parenthesis with a rainbow of colors
-* [rails.vim](https://github.com/tpope/vim-rails) - Ruby on Rails power tools 
 * [supertab](https://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab 
 * [surround](https://github.com/tpope/vim-surround) - quoting/parenthesizing made simple
 * [syntastic](https://github.com/scrooloose/syntastic/) - Syntax checking hacks for vim 
@@ -80,4 +77,6 @@ Install the plugins (This step may take some time. Go have yourself a cup of tea
 * `F5` -> Toggle Nerd-Tree file viewer
 * `F6` -> Toggle tagbar
 * `Ctrl` + `j` -> Call zen-coding expansion on html tags
+* `Ctrl` + 'c' -> Copy content of current file to system clipboard
 * `Alt` + `1~9` -> Switch between multiple buffers
+* `Alt` + 'x' -> " Delete current tab, remove it from tagbar
