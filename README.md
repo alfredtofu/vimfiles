@@ -72,6 +72,8 @@ Install the plugins (This step may take some time. Go have yourself a cup of tea
 
 ## Key Bindings ##
 
+* `F2` -> Toggle highlight mode 
+* `F3` -> Toggle paste mode
 * `F4` -> Toggle indentation guides
 * `F5` -> Toggle Nerd-Tree file viewer
 * `F6` -> Toggle tagbar
