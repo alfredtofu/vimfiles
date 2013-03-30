@@ -9,6 +9,7 @@ export SHELL="/bin/sh"
 vim +BundleInstall! +BundleClean +qall
 export SHELL=$system_shell
 
-@mv ~/.vim/Templates ~/.vim/bundle/cvim/c-support/templates/
-@mv ~/.vim/c.comments.template ~/.vim/bundle/cvim/c-support/templates/
-@mv ~/.vim/cpp.snippets ~/.vim/bundle/snipmate-snippets/snippets/
+
+mv ~/.vim/Templates ~/.vim/bundle/c.vim/c-support/templates/
+mv ~/.vim/c.comments.template ~/.vim/bundle/c.vim/c-support/templates/
+mv ~/.vim/cpp.snippets ~/.vim/bundle/snipmate-snippets/snippets/
