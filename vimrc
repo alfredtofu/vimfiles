@@ -147,7 +147,13 @@ nmap <F5> :NERDTreeToggle<CR>
 nmap <F6> :TagbarToggle<cr>
 
 " copy content of current file to system clipboard
-nmap <c-c> ggVG"+y''
+nmap <C-c> ggVG"+y''
+
+" copy the selected content to system clipboard
+vmap <C-c> "+y
+
+" paste content of system clipboard
+nmap <C-p> "+p
 
 " delete current tab, remove it from tagbar
 nmap <C-x> :Tbbd<CR>    
