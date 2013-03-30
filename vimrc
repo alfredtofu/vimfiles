@@ -27,8 +27,7 @@ set background=dark
 
 " Color settings
 set t_Co=256
-"color tir_black
-color ir_dark
+color tir_black
 set cursorline
 
 " Source a global configuration file if available
