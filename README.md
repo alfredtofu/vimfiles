@@ -77,6 +77,7 @@ Install the plugins (This step may take some time. Go have yourself a cup of tea
 * `F4` -> Toggle indentation guides
 * `F5` -> Toggle Nerd-Tree file viewer
 * `F6` -> Toggle tagbar
+* `F7` -> Format the code
 * `Ctrl` + `j` -> Call zen-coding expansion on html tags
 * `Ctrl` + `c` -> Copy content of current file to system clipboard
 * `Alt` + `1~9` -> Switch between multiple buffers

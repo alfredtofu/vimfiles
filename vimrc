@@ -30,6 +30,9 @@ set t_Co=256
 color tir_black
 set cursorline
 
+" JQuery syntax support
+autocmd Syntax javascript set syntax=jquery
+
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
     source /etc/vim/vimrc.local
@@ -74,8 +77,6 @@ let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
 autocmd Syntax html let g:neocomplcache_disable_auto_complete=1
 set completeopt-=preview
 
-let g:neosnippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'
-
 " NeoSnippets
 
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
@@ -88,6 +89,9 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expan
 if has('conceal')
   set conceallevel=2 concealcursor=i
 endif
+
+let g:neosnippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'
+let g:neosnippet#enable_snipmate_compatibility=1
 
 " SuperTab
 let g:SuperTabDefaultCompletionType="<c-n>"
@@ -103,7 +107,7 @@ let NERDChristmasTree=1
 let NERDTreeWinSize=25
 " set filter
 let NERDTreeIgnore=['.*\.mex.*', 'tags', '.*\.jpg', '.*\.png', '.*\.jpeg', '.*\.bmp',
-            \ '\.o', '.*\~', '.*\.swp', '\.DS_Store', '.*\.class', '\.pyc',
+            \ '\.o$', '.*\~', '.*\.swp', '\.DS_Store', '.*\.class', '\.pyc',
             \ '\.pdf']
 let NERDTreeShowHidden=1
 let NERDTreeAutoCenter=1
@@ -142,9 +146,10 @@ autocmd Syntax lisp,scheme,clojure RainbowParenthesesToggle
 " Key mappings
 nmap <F2> :set hlsearch! hlsearch?<CR> 
 nmap <F3> :set paste! paste?<CR> 
-nmap <F4> :IndentGuidesToggle<cr>
+nmap <F4> :IndentGuidesToggle<CR>
 nmap <F5> :NERDTreeToggle<CR>
-nmap <F6> :TagbarToggle<cr>
+nmap <F6> :TagbarToggle<CR>
+nmap <F7> gg=G''
 
 " copy content of current file to system clipboard
 nmap <C-c> ggVG"+y''
@@ -186,3 +191,7 @@ set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
 " set the cursor as the last viewing line of the file
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+
+function! NERDTreeCustomIgnoreFilter(path)
+    return a:path.isExecutable
+endfunction
