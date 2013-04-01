@@ -108,7 +108,7 @@ let NERDTreeWinSize=25
 " set filter
 let NERDTreeIgnore=['.*\.mex.*', 'tags', '.*\.jpg', '.*\.png', '.*\.jpeg', '.*\.bmp',
             \ '\.o$', '.*\~', '.*\.swp', '\.DS_Store', '.*\.class', '\.pyc',
-            \ '\.pdf']
+            \ '\.pdf', '\.svn$']
 let NERDTreeShowHidden=1
 let NERDTreeAutoCenter=1
 

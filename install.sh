@@ -13,3 +13,4 @@ export SHELL=$system_shell
 mv ~/.vim/Templates ~/.vim/bundle/c.vim/c-support/templates/
 mv ~/.vim/c.comments.template ~/.vim/bundle/c.vim/c-support/templates/
 mv ~/.vim/cpp.snippets ~/.vim/bundle/snipmate-snippets/snippets/
+mv ~/.vim/c.snippets ~/.vim/bundle/snipmate-snippets/snippets/
