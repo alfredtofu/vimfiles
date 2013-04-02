@@ -106,7 +106,7 @@ let g:user_zen_settings={
 let NERDChristmasTree=1
 let NERDTreeWinSize=25
 " set filter
-let NERDTreeIgnore=['.*\.mex.*', 'tags', '.*\.jpg', '.*\.png', '.*\.jpeg', '.*\.bmp',
+let NERDTreeIgnore=['\.mat$', '.*\.mex.*', 'tags', '.*\.jpg', '.*\.png', '.*\.jpeg', '.*\.bmp',
             \ '\.o$', '.*\~', '.*\.swp', '\.DS_Store', '.*\.class', '\.pyc',
             \ '\.pdf', '\.svn$']
 let NERDTreeShowHidden=1
