@@ -50,7 +50,7 @@ Note that package names and install tools may differ in other environments.
 
 * Matlab syntax checker - `mlint`
 
-Make `mlink`\(in the directory of Matlab\) findable.
+Make `mlint`\(in the directory of Matlab\) findable in shell.
 
 ## Installation ##
 
