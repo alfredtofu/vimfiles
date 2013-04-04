@@ -27,4 +27,5 @@ Bundle 'mattn/zencoding-vim'
 "Bundle 'tpope/vim-fugitive'
 Bundle 'nono/jquery.vim'
 Bundle 'vim-scripts/sudo.vim'
-Bundle "Chiel92/vim-autoformat"
+Bundle 'Chiel92/vim-autoformat'
+Bundle 'vim-scripts/MatlabFilesEdition'

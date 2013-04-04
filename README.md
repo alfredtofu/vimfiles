@@ -22,11 +22,12 @@ Zhujin's vim files
 * [syntastic](https://github.com/scrooloose/syntastic/) - Syntax checking hacks for vim 
 * [tabbar](https://github.com/humiaozuzu/TabBar.git) - add tab bar (derived from miniBufExplorer)
 * [tagbar](https://github.com/majutsushi/tagbar) - displays tags in a window, ordered by class etc
-* [vim-autoformat]('https://github.com/Chiel92/vim-autoformat') - Format the code. 
-* [vim-css3-syntax]('https://github.com/hail2u/vim-css3-syntax') - Add CSS3 syntax support to vim
+* [vim-autoformat](https://github.com/Chiel92/vim-autoformat) - Format the code 
+* [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) - Add CSS3 syntax support to vim
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for vim
 * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) -  provides a much simpler way to use some motions in vim
 * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
+* [vim-scripts/MatlabFilesEdition](https://github.com/vim-scripts/MatlabFilesEdition) - script for Matlab, support: Syntax highlighting, Correct setting to use the matchit.vim script, Correct indentation and Tag support
 * [zencoding](https://github.com/mattn/zencoding-vim) - for high-speed HTML, XML, XSL, etc coding and editing
 
 ## Themes ##
@@ -47,6 +48,9 @@ For MacOS:
 
 Note that package names and install tools may differ in other environments.
 
+* Matlab syntax checker - `mlint`
+
+Make `mlink`\(in the directory of Matlab\) findable.
 
 ## Installation ##
 
