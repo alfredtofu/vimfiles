@@ -149,7 +149,7 @@ nmap <F3> :set paste! paste?<CR>
 nmap <F4> :IndentGuidesToggle<CR>
 nmap <F5> :NERDTreeToggle<CR>
 nmap <F6> :TagbarToggle<CR>
-nmap <F7> gg=G''
+nmap <F7> :Autoformat<CR><CR>
 
 " copy content of current file to system clipboard
 nmap <C-c> ggVG"+y''
