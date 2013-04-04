@@ -163,6 +163,12 @@ nmap <C-p> "+p
 " delete current tab, remove it from tagbar
 nmap <C-x> :Tbbd<CR>    
 
+" For local replace
+nnoremap gr gd[{V%:s/<C-R>///gc<left><left><left>
+
+" For global replace
+nnoremap gR gD:%s/<C-R>///gc<left><left><left>
+
 " w!! to sudo & wirte a file
 cmap w!! w !sudo tee > /dev/null %
 
