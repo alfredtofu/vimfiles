@@ -16,7 +16,7 @@ Zhujin's vim files
 * [nerd tree](https://github.com/scrooloose/nerdtree) - tree explorer plugin for navigating the filesystem
 * [powerline](https://github.com/Lokaltog/vim-powerline) - create better-looking, more functional vim statuslines
 * [rainbow parenthesis](https://github.com/kien/rainbow_parentheses.vim) - highlights matching parenthesis with a rainbow of colors
-* [snipmate-snippets](https://github.com/honza/snipmate-snippets) - vim-snipmate default snippets
+* [snipmate-snippets](https://github.com/honza/vim-snippets/) - vim-snipmate default snippets
 * [supertab](https://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab 
 * [surround](https://github.com/tpope/vim-surround) - quoting/parenthesizing made simple
 * [syntastic](https://github.com/scrooloose/syntastic/) - Syntax checking hacks for vim 
