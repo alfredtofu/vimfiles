@@ -82,5 +82,5 @@ Install the plugins (This step may take some time. Go have yourself a cup of tea
 * `Ctrl` + `j` -> Call zen-coding expansion on html tags
 * `Ctrl` + `c` -> Copy content of current file to system clipboard
 * `Alt` + `1~9` -> Switch between multiple buffers
-* `Alt` + `x` -> " Delete current tab, remove it from tagbar
+* `Alt` + `x` -> Delete current tab, remove it from tagbar
 * `gr` `gR` -> local/global variable replace
