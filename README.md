@@ -52,6 +52,12 @@ Note that package names and install tools may differ in other environments.
 
 Make `mlint`\(in the directory of Matlab\) findable in shell.
 
+* `vim-gnome` - for system clipboard
+
+For Ubuntu.
+    sudo apt-get install vim-gnome
+
+
 ## Installation ##
 
 Backup your own vim files.
