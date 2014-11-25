@@ -1,14 +1,13 @@
 " Don't be compatible with vi
 set nocompatible 
 
-filetype off 
+filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle
-" Bundles
+" Use Vundle to manage plugins
+set rtp+=/home/liangzhujin/.vim/bundle/Vundle.vim
+call vundle#begin()
 source ~/.vim/vimrc.bundles
+call vundle#end()
 
 filetype plugin indent on
 
@@ -20,6 +19,16 @@ set history=1000
 
 " Enalbe syntax highlighting
 syntax on
+
+" Set column limit for syntax highlighting
+" to prevent longs lines slowing down the world
+set synmaxcol=128 
+
+
+" Optimize scrolling
+set ttyfast
+set ttyscroll=3
+set lazyredraw
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
@@ -53,9 +62,9 @@ set number          " Show line number
 " Indentation
 set autoindent
 set expandtab
-set tabstop=4
-set shiftwidth=4 
-set linespace=4
+set tabstop=2
+set shiftwidth=2 
+set linespace=2
 
 autocmd Syntax html,css,ruby,javascript,coffee set tabstop=2 shiftwidth=2 linespace=2
 
@@ -70,14 +79,21 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=239
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=242
 
 " NeoComplCache
+let g:neocomplcache_force_overwrite_completefunc = 1
 let g:neocomplcache_enable_at_startup=1
 let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length = 3
 let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
+let g:neosnippet#disable_runtime_snippets = { "_": 1, }
 autocmd Syntax html let g:neocomplcache_disable_auto_complete=1
 set completeopt-=preview
 
-" NeoSnippets
+" Snippet
+" Enable snipMate compatibility feature.
+let g:neosnippet#enable_snipmate_compatibility = 1
+
+" Tell Neosnippet about the other snippets
+let g:neosnippet#snippets_directory='~/.vim/bundle/vim-snippets/snippets'
 
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 smap <C-k>     <Plug>(neosnippet_expand_or_jump)
@@ -90,15 +106,15 @@ if has('conceal')
   set conceallevel=2 concealcursor=i
 endif
 
-let g:neosnippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'
-let g:neosnippet#enable_snipmate_compatibility=1
+"let g:neosnippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'
+"let g:neosnippet#enable_snipmate_compatibility=1
 
 " SuperTab
 let g:SuperTabDefaultCompletionType="<c-n>"
 
 " Zen-coding 
-let g:user_zen_expandabbr_key='<c-j>'
-let g:user_zen_settings={
+let g:user_emmet_expandabbr_key='<c-j>'
+let g:user_emmet_settings={
 \    'indentation': '  ',
 \}
 
