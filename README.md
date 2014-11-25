@@ -8,7 +8,6 @@ Zhujin's vim files
 * [delimitMate](https://github.com/Raimondi/delimitMate) - provides insert mode auto-completion for quotes, parens, brackets, etc
 * [endwise](https://github.com/tpope/vim-endwise) - wisely add "end" in ruby, endfunction/endif/more in vim script, etc
 * [indent guides](https://github.com/nathanaelkane/vim-indent-guides) - visually displaying indent levels in code
-* [jquery.vim](https://github.com/nono/jquery.vim) - Syntax file for jQuery
 * [matchit](https://github.com/vim-scripts/matchit.zip) - extended % matching for HTML, LaTeX, and many other languages
 * [neocomplcache](https://github.com/Shougo/neocomplcache) - Ultimate auto-completion system
 * [neosnippet](https://github.com/Shougo/neosnippet) - adds snippet support to Vim
@@ -23,10 +22,7 @@ Zhujin's vim files
 * [tabbar](https://github.com/humiaozuzu/TabBar.git) - add tab bar (derived from miniBufExplorer)
 * [tagbar](https://github.com/majutsushi/tagbar) - displays tags in a window, ordered by class etc
 * [vim-autoformat](https://github.com/Chiel92/vim-autoformat) - Format the code 
-* [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax) - Add CSS3 syntax support to vim
-* [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for vim
 * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) -  provides a much simpler way to use some motions in vim
-* [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
 * [vim-scripts/MatlabFilesEdition](https://github.com/vim-scripts/MatlabFilesEdition) - script for Matlab, support: Syntax highlighting, Correct setting to use the matchit.vim script, Correct indentation and Tag support
 * [emmet](https://github.com/mattn/emmet-vim) - for high-speed HTML, XML, XSL, etc coding and editing
 
