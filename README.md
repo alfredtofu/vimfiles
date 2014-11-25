@@ -28,7 +28,7 @@ Zhujin's vim files
 * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion) -  provides a much simpler way to use some motions in vim
 * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
 * [vim-scripts/MatlabFilesEdition](https://github.com/vim-scripts/MatlabFilesEdition) - script for Matlab, support: Syntax highlighting, Correct setting to use the matchit.vim script, Correct indentation and Tag support
-* [zencoding](https://github.com/mattn/zencoding-vim) - for high-speed HTML, XML, XSL, etc coding and editing
+* [emmet](https://github.com/mattn/emmet-vim) - for high-speed HTML, XML, XSL, etc coding and editing
 
 ## Themes ##
 
