@@ -1,4 +1,5 @@
-Plugin 'gmarik/Vundle.vim'
+"Plugin 'gmarik/Vundle.vim'
+Plugin 'gmarik/vundle'
 Plugin 'vim-scripts/c.vim'
 Plugin 'docunext/closetag.vim'
 Plugin 'Raimondi/delimitMate'
