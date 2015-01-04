@@ -165,6 +165,8 @@ nmap <F5> :NERDTreeToggle<CR>
 nmap <F6> :TagbarToggle<CR>
 nmap <F7> :Autoformat<CR><CR>
 
+" the following three commands need gvim
+" sudo apt-get install vim-gnome
 " copy content of current file to system clipboard
 nmap <C-c> ggVG"+y''
 
