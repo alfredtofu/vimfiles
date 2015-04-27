@@ -216,3 +216,6 @@ set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 " ~/.viminfo file. If this is the case, then run:
 " sudo chown user:group ~/.viminfo
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+
+" ignore whitespace
+set diffopt+=iwhite
