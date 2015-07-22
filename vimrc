@@ -60,13 +60,14 @@ set ruler           " Show cursor position
 set number          " Show line number
 
 " Indentation
-set autoindent
 set expandtab
 set tabstop=2
 set shiftwidth=2 
+set softtabstop=2
 set linespace=2
+set autoindent
 
-autocmd Syntax html,css,ruby,javascript,coffee set tabstop=2 shiftwidth=2 linespace=2
+autocmd Syntax python,html,css,ruby,javascript,coffee set tabstop=2 shiftwidth=2 linespace=2
 
 " File Types
 autocmd BufRead,BufNewFile *.g set syntax=antlr3
