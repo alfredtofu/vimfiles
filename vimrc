@@ -219,4 +219,6 @@ set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
 " ignore whitespace
-set diffopt+=iwhite
+"set diffopt+=iwhite
+" force wrap line in vimdiff
+autocmd FilterWritePre * if &diff | setlocal wrap< | endif
