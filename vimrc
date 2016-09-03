@@ -210,7 +210,10 @@ let g:EasyMotion_leader_key = '<Leader>'
 "set clipboard=unnamedplus
 
 " set fileencodings to avoid messy code
-set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+" set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
+set enc=utf8
+set fencs=utf8,gbk,gb2312,gb18030
 
 " set the cursor as the last viewing line of the file
 " If this doesn't work, a common problem is not having ownership of your
