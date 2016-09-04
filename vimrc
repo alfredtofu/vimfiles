@@ -67,7 +67,7 @@ set softtabstop=2
 set linespace=2
 set autoindent
 
-autocmd Syntax python,html,css,ruby,javascript,coffee set tabstop=2 shiftwidth=2 linespace=2
+autocmd Syntax python,html,css,ruby,javascript,coffee set tabstop=4 shiftwidth=4 linespace=4
 
 " File Types
 autocmd BufRead,BufNewFile *.g set syntax=antlr3
